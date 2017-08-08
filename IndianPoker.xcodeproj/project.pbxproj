@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE19A76D1F3843130017DAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A76C1F3843130017DAAD /* AppDelegate.swift */; };
+		AE19A76F1F3843130017DAAD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A76E1F3843130017DAAD /* GameViewController.swift */; };
+		AE19A7721F3843130017DAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7701F3843130017DAAD /* Main.storyboard */; };
+		AE19A7741F3843130017DAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7731F3843130017DAAD /* Assets.xcassets */; };
+		AE19A7771F3843130017DAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7751F3843130017DAAD /* LaunchScreen.storyboard */; };
+		AE19A7821F3843140017DAAD /* IndianPokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A7811F3843140017DAAD /* IndianPokerTests.swift */; };
+		AE19A78D1F3843140017DAAD /* IndianPokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A78C1F3843140017DAAD /* IndianPokerUITests.swift */; };
+		AE19A79B1F38444E0017DAAD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A79A1F38444E0017DAAD /* Game.swift */; };
+		AE19A7A71F3845160017DAAD /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A79D1F3845160017DAAD /* card1.png */; };
+		AE19A7A81F3845160017DAAD /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A79E1F3845160017DAAD /* card2.png */; };
+		AE19A7A91F3845160017DAAD /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A79F1F3845160017DAAD /* card3.png */; };
+		AE19A7AA1F3845160017DAAD /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A01F3845160017DAAD /* card4.png */; };
+		AE19A7AB1F3845160017DAAD /* card5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A11F3845160017DAAD /* card5.png */; };
+		AE19A7AC1F3845160017DAAD /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A21F3845160017DAAD /* card6.png */; };
+		AE19A7AD1F3845160017DAAD /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A31F3845160017DAAD /* card7.png */; };
+		AE19A7AE1F3845160017DAAD /* card8.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A41F3845160017DAAD /* card8.png */; };
+		AE19A7AF1F3845160017DAAD /* card9.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A51F3845160017DAAD /* card9.png */; };
+		AE19A7B01F3845160017DAAD /* card10.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7A61F3845160017DAAD /* card10.png */; };
+		AE19A7B21F3845330017DAAD /* card0.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7B11F3845330017DAAD /* card0.png */; };
+		AE19A7B51F3845590017DAAD /* chip.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7B31F3845590017DAAD /* chip.png */; };
+		AE19A7B61F3845590017DAAD /* chips.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7B41F3845590017DAAD /* chips.png */; };
+		AE19A7B81F3845660017DAAD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE19A7B71F3845660017DAAD /* logo.png */; };
+		AE19A7BA1F3856550017DAAD /* GameStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A7B91F3856550017DAAD /* GameStartViewController.swift */; };
+		AE19A7BC1F38883F0017DAAD /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A7BB1F38883F0017DAAD /* GameOverViewController.swift */; };
+		AE19A7BE1F38CE360017DAAD /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19A7BD1F38CE360017DAAD /* MCManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE19A77E1F3843140017DAAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19A7611F3843130017DAAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE19A7681F3843130017DAAD;
+			remoteInfo = IndianPoker;
+		};
+		AE19A7891F3843140017DAAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19A7611F3843130017DAAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE19A7681F3843130017DAAD;
+			remoteInfo = IndianPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE19A7691F3843130017DAAD /* IndianPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19A76C1F3843130017DAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE19A76E1F3843130017DAAD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AE19A7711F3843130017DAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE19A7731F3843130017DAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE19A7761F3843130017DAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE19A7781F3843130017DAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19A77D1F3843140017DAAD /* IndianPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19A7811F3843140017DAAD /* IndianPokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianPokerTests.swift; sourceTree = "<group>"; };
+		AE19A7831F3843140017DAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19A7881F3843140017DAAD /* IndianPokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianPokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19A78C1F3843140017DAAD /* IndianPokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianPokerUITests.swift; sourceTree = "<group>"; };
+		AE19A78E1F3843140017DAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19A79A1F38444E0017DAAD /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		AE19A79D1F3845160017DAAD /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1.png; sourceTree = "<group>"; };
+		AE19A79E1F3845160017DAAD /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2.png; sourceTree = "<group>"; };
+		AE19A79F1F3845160017DAAD /* card3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card3.png; sourceTree = "<group>"; };
+		AE19A7A01F3845160017DAAD /* card4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card4.png; sourceTree = "<group>"; };
+		AE19A7A11F3845160017DAAD /* card5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card5.png; sourceTree = "<group>"; };
+		AE19A7A21F3845160017DAAD /* card6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6.png; sourceTree = "<group>"; };
+		AE19A7A31F3845160017DAAD /* card7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7.png; sourceTree = "<group>"; };
+		AE19A7A41F3845160017DAAD /* card8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card8.png; sourceTree = "<group>"; };
+		AE19A7A51F3845160017DAAD /* card9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card9.png; sourceTree = "<group>"; };
+		AE19A7A61F3845160017DAAD /* card10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10.png; sourceTree = "<group>"; };
+		AE19A7B11F3845330017DAAD /* card0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card0.png; sourceTree = "<group>"; };
+		AE19A7B31F3845590017DAAD /* chip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip.png; sourceTree = "<group>"; };
+		AE19A7B41F3845590017DAAD /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chips.png; sourceTree = "<group>"; };
+		AE19A7B71F3845660017DAAD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AE19A7B91F3856550017DAAD /* GameStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartViewController.swift; sourceTree = "<group>"; };
+		AE19A7BB1F38883F0017DAAD /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		AE19A7BD1F38CE360017DAAD /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE19A7661F3843130017DAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A77A1F3843140017DAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A7851F3843140017DAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE19A7601F3843130017DAAD = {
+			isa = PBXGroup;
+			children = (
+				AE19A76B1F3843130017DAAD /* IndianPoker */,
+				AE19A7801F3843140017DAAD /* IndianPokerTests */,
+				AE19A78B1F3843140017DAAD /* IndianPokerUITests */,
+				AE19A76A1F3843130017DAAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE19A76A1F3843130017DAAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE19A7691F3843130017DAAD /* IndianPoker.app */,
+				AE19A77D1F3843140017DAAD /* IndianPokerTests.xctest */,
+				AE19A7881F3843140017DAAD /* IndianPokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE19A76B1F3843130017DAAD /* IndianPoker */ = {
+			isa = PBXGroup;
+			children = (
+				AE19A79C1F3844BA0017DAAD /* images */,
+				AE19A76C1F3843130017DAAD /* AppDelegate.swift */,
+				AE19A7BD1F38CE360017DAAD /* MCManager.swift */,
+				AE19A7B91F3856550017DAAD /* GameStartViewController.swift */,
+				AE19A76E1F3843130017DAAD /* GameViewController.swift */,
+				AE19A7BB1F38883F0017DAAD /* GameOverViewController.swift */,
+				AE19A79A1F38444E0017DAAD /* Game.swift */,
+				AE19A7701F3843130017DAAD /* Main.storyboard */,
+				AE19A7731F3843130017DAAD /* Assets.xcassets */,
+				AE19A7751F3843130017DAAD /* LaunchScreen.storyboard */,
+				AE19A7781F3843130017DAAD /* Info.plist */,
+			);
+			path = IndianPoker;
+			sourceTree = "<group>";
+		};
+		AE19A7801F3843140017DAAD /* IndianPokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE19A7811F3843140017DAAD /* IndianPokerTests.swift */,
+				AE19A7831F3843140017DAAD /* Info.plist */,
+			);
+			path = IndianPokerTests;
+			sourceTree = "<group>";
+		};
+		AE19A78B1F3843140017DAAD /* IndianPokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE19A78C1F3843140017DAAD /* IndianPokerUITests.swift */,
+				AE19A78E1F3843140017DAAD /* Info.plist */,
+			);
+			path = IndianPokerUITests;
+			sourceTree = "<group>";
+		};
+		AE19A79C1F3844BA0017DAAD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AE19A7B11F3845330017DAAD /* card0.png */,
+				AE19A79D1F3845160017DAAD /* card1.png */,
+				AE19A79E1F3845160017DAAD /* card2.png */,
+				AE19A79F1F3845160017DAAD /* card3.png */,
+				AE19A7A01F3845160017DAAD /* card4.png */,
+				AE19A7A11F3845160017DAAD /* card5.png */,
+				AE19A7A21F3845160017DAAD /* card6.png */,
+				AE19A7A31F3845160017DAAD /* card7.png */,
+				AE19A7A41F3845160017DAAD /* card8.png */,
+				AE19A7A51F3845160017DAAD /* card9.png */,
+				AE19A7A61F3845160017DAAD /* card10.png */,
+				AE19A7B31F3845590017DAAD /* chip.png */,
+				AE19A7B41F3845590017DAAD /* chips.png */,
+				AE19A7B71F3845660017DAAD /* logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE19A7681F3843130017DAAD /* IndianPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19A7911F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPoker" */;
+			buildPhases = (
+				AE19A7651F3843130017DAAD /* Sources */,
+				AE19A7661F3843130017DAAD /* Frameworks */,
+				AE19A7671F3843130017DAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndianPoker;
+			productName = IndianPoker;
+			productReference = AE19A7691F3843130017DAAD /* IndianPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE19A77C1F3843140017DAAD /* IndianPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19A7941F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPokerTests" */;
+			buildPhases = (
+				AE19A7791F3843140017DAAD /* Sources */,
+				AE19A77A1F3843140017DAAD /* Frameworks */,
+				AE19A77B1F3843140017DAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE19A77F1F3843140017DAAD /* PBXTargetDependency */,
+			);
+			name = IndianPokerTests;
+			productName = IndianPokerTests;
+			productReference = AE19A77D1F3843140017DAAD /* IndianPokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE19A7871F3843140017DAAD /* IndianPokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19A7971F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPokerUITests" */;
+			buildPhases = (
+				AE19A7841F3843140017DAAD /* Sources */,
+				AE19A7851F3843140017DAAD /* Frameworks */,
+				AE19A7861F3843140017DAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE19A78A1F3843140017DAAD /* PBXTargetDependency */,
+			);
+			name = IndianPokerUITests;
+			productName = IndianPokerUITests;
+			productReference = AE19A7881F3843140017DAAD /* IndianPokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE19A7611F3843130017DAAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = noriteo;
+				TargetAttributes = {
+					AE19A7681F3843130017DAAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A42DJ8H78Z;
+						ProvisioningStyle = Automatic;
+					};
+					AE19A77C1F3843140017DAAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A42DJ8H78Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE19A7681F3843130017DAAD;
+					};
+					AE19A7871F3843140017DAAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A42DJ8H78Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE19A7681F3843130017DAAD;
+					};
+				};
+			};
+			buildConfigurationList = AE19A7641F3843130017DAAD /* Build configuration list for PBXProject "IndianPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE19A7601F3843130017DAAD;
+			productRefGroup = AE19A76A1F3843130017DAAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE19A7681F3843130017DAAD /* IndianPoker */,
+				AE19A77C1F3843140017DAAD /* IndianPokerTests */,
+				AE19A7871F3843140017DAAD /* IndianPokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE19A7671F3843130017DAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19A7771F3843130017DAAD /* LaunchScreen.storyboard in Resources */,
+				AE19A7AD1F3845160017DAAD /* card7.png in Resources */,
+				AE19A7B21F3845330017DAAD /* card0.png in Resources */,
+				AE19A7B61F3845590017DAAD /* chips.png in Resources */,
+				AE19A7A91F3845160017DAAD /* card3.png in Resources */,
+				AE19A7B81F3845660017DAAD /* logo.png in Resources */,
+				AE19A7A81F3845160017DAAD /* card2.png in Resources */,
+				AE19A7AB1F3845160017DAAD /* card5.png in Resources */,
+				AE19A7741F3843130017DAAD /* Assets.xcassets in Resources */,
+				AE19A7AA1F3845160017DAAD /* card4.png in Resources */,
+				AE19A7AF1F3845160017DAAD /* card9.png in Resources */,
+				AE19A7AE1F3845160017DAAD /* card8.png in Resources */,
+				AE19A7721F3843130017DAAD /* Main.storyboard in Resources */,
+				AE19A7B51F3845590017DAAD /* chip.png in Resources */,
+				AE19A7AC1F3845160017DAAD /* card6.png in Resources */,
+				AE19A7A71F3845160017DAAD /* card1.png in Resources */,
+				AE19A7B01F3845160017DAAD /* card10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A77B1F3843140017DAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A7861F3843140017DAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE19A7651F3843130017DAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19A79B1F38444E0017DAAD /* Game.swift in Sources */,
+				AE19A76F1F3843130017DAAD /* GameViewController.swift in Sources */,
+				AE19A76D1F3843130017DAAD /* AppDelegate.swift in Sources */,
+				AE19A7BA1F3856550017DAAD /* GameStartViewController.swift in Sources */,
+				AE19A7BC1F38883F0017DAAD /* GameOverViewController.swift in Sources */,
+				AE19A7BE1F38CE360017DAAD /* MCManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A7791F3843140017DAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19A7821F3843140017DAAD /* IndianPokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19A7841F3843140017DAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19A78D1F3843140017DAAD /* IndianPokerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE19A77F1F3843140017DAAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE19A7681F3843130017DAAD /* IndianPoker */;
+			targetProxy = AE19A77E1F3843140017DAAD /* PBXContainerItemProxy */;
+		};
+		AE19A78A1F3843140017DAAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE19A7681F3843130017DAAD /* IndianPoker */;
+			targetProxy = AE19A7891F3843140017DAAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE19A7701F3843130017DAAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19A7711F3843130017DAAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE19A7751F3843130017DAAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19A7761F3843130017DAAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE19A78F1F3843140017DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE19A7901F3843140017DAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE19A7921F3843140017DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE19A7931F3843140017DAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE19A7951F3843140017DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndianPoker.app/IndianPoker";
+			};
+			name = Debug;
+		};
+		AE19A7961F3843140017DAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndianPoker.app/IndianPoker";
+			};
+			name = Release;
+		};
+		AE19A7981F3843140017DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IndianPoker;
+			};
+			name = Debug;
+		};
+		AE19A7991F3843140017DAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A42DJ8H78Z;
+				INFOPLIST_FILE = IndianPokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noriteo.IndianPokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IndianPoker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE19A7641F3843130017DAAD /* Build configuration list for PBXProject "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19A78F1F3843140017DAAD /* Debug */,
+				AE19A7901F3843140017DAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19A7911F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19A7921F3843140017DAAD /* Debug */,
+				AE19A7931F3843140017DAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE19A7941F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19A7951F3843140017DAAD /* Debug */,
+				AE19A7961F3843140017DAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE19A7971F3843140017DAAD /* Build configuration list for PBXNativeTarget "IndianPokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19A7981F3843140017DAAD /* Debug */,
+				AE19A7991F3843140017DAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE19A7611F3843130017DAAD /* Project object */;
+}
